@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/navi_list">
+
+    <fragment android:id="@+id/navi_list"
+        android:name="com.example.navigationsample.ListFragment"
+        android:label="ListFragment"/>
+
+    <fragment android:id="@+id/navi_favorite"
+        android:name="com.example.navigationsample.FavoriteFragment"
+        android:label="FavoriteFragment"/>
+
+    <fragment android:id="@+id/navi_settings"
+        android:name="com.example.navigationsample.SettingFragment"
+        android:label="SettingFragment"/>
+
+</navigation>
